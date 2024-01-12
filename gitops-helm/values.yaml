@@ -5,7 +5,7 @@ label: gitops
 replicas: 3
 image:
   repository: docker.io/miyukis/gitops-go-app # 変更箇所 DOCKERHUB_REPO_NAME
-  tag: 0
+  tag: 1
 
 imageConfig:
   pullPolicy: IfNotPresent
